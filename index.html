@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+</head>
+<body style="background-color: antiquewhite;">
+    <form action="#" method ="post">
+        <div style=" color:#5b5bac">  <h1>Student Registration Form</h1> </div>
+            <label for="firstname">First Name:</label>
+                 <input id="firstname" type ="text" placeholder ="First Name" required> <br>
+            <label for="lastname" > Last Name :</label>
+                 <input id="lastname" type="text" placeholder ="Last Name" required> <br>
+            <label for="age">Age:</label>
+                 <input type ="number" min="10" max="99" id="age" required> <br>
+            <label for="email">Email:</label>
+                 <input type="Email" id ="email" required> <br>
+             <label for="phone">Phone Number:</label>
+                 <input type="tel" id ="phone"placeholder ="+234 800 000 0000"required > <br>
+             <label for="password">Password:</label>
+                 <input type="password" id="password"> <br>
+<fieldset>
+         <legend>Gender</legend>
+             <label>Male</label>
+                  <input type ="radio"name="gender"> <br>
+             <label>Female</label>
+                 <input type ="radio"name="gender"> <br>
+             <label>prefer not to say</label>
+                <input type ="radio"name="gender"> <br>
+</fieldset>
+<fieldset >
+        <label><strong>Course interest:</strong></label> <br>
+        <label >Mobile Development</label>
+             <input type="Checkbox"> <br>
+        <label for="">Generative AI</label>
+         <input  type ="checkbox"> <br>
+         <label for="">Data Science</label>
+           <input  type ="checkbox"> <br>
+        <label for="">Cyber Security</label>
+             <input  type ="checkbox">
+    
+
+</fieldset>
+<br>
+<button type="submit"> Register Now</button>
+<button type="Reset">Clear Form</button>
+    </form>
+    
+    <!-- Radio buttons allow users to select only one option from a set of mutually exclusive choices (circles),<br> 
+     while checkboxes allow users to select multiple options (squares) from a list. Radio buttons (type="radio") uncheck others in the group when one is clicked; 
+     checkboxes (type="checkbox") operate independently. -->
+</body>
+</html>
